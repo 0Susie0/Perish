@@ -1,0 +1,57 @@
+#N canvas 446 142 1098 465 10;
+#X obj 280 220 hsl 128 15 0 1 0 0 s1cutoff reset empty -2 -8 0 10 #007cf9
+#ffffff #000000 0 1;
+#X obj 280 270 hsl 128 15 0 1 0 0 voicePan reset empty -2 -8 0 10 #006ddb
+#ffffff #000000 0 1;
+#X obj 650 170 vsl 15 128 1 40 0 0 TremoFre reset empty 0 -9 0 10 #9595ff
+#ffffff #000000 0 1;
+#X obj 730 170 vsl 15 128 0 1 0 0 FlanFB reset empty 0 -9 0 10 #9f9fff
+#ffffff #000000 0 1;
+#X text 630 140 TremoFre;
+#X obj 820 170 vsl 15 128 0.5 40 0 0 FlanFre reset empty 0 -9 0 10
+#b9b9ff #ffffff #000000 0 1;
+#X text 800 140 FlanFre;
+#X text 550 140 TremoAm;
+#X obj 570 170 vsl 15 128 0.01 1 0 0 TremoAm reset empty 0 -9 0 10
+#8080ff #ffffff #000000 0 1;
+#X text 700 140 FlanFeedback;
+#X text 320 170 Part1;
+#X text 180 270 voicePan;
+#X text 180 220 s1Cutoff;
+#X obj 280 370 hsl 128 15 0 1 0 0 padcutoff reset empty -2 -8 0 10
+#0069d2 #ffffff #000000 11400 1;
+#X text 320 320 Part2;
+#X text 180 370 padCutoff;
+#X obj 1070 230 hsl 128 15 0 0.6 0 0 snloudness reset empty -2 -8 0
+10 #02adff #ffffff #000000 0 1;
+#X text 1110 140 Part3;
+#X text 970 230 snloudness;
+#X obj 1070 270 hsl 128 15 0 0.6 0 0 d1loudness reset empty -2 -8 0
+10 #55aaff #ffffff #000000 0 1;
+#X text 970 270 d1loudness;
+#X obj 640 360 bng 46 250 50 0 water_on empty empty 17 7 0 10 #caffff
+#ffffff #000000;
+#X obj 740 360 bng 46 250 50 0 cymbal_on empty empty 17 7 0 10 #c8ffff
+#ffffff #000000;
+#X obj 860 360 bng 46 250 50 0 glass_on empty empty 17 7 0 10 #c6ffff
+#ffffff #000000;
+#X text 630 420 WaterDrip;
+#X text 740 420 Cymbal;
+#X text 850 420 GlassCrush;
+#X obj 510 360 bng 46 250 50 0 thunder_on empty empty 17 7 0 10 #c8ffff
+#ffffff #000000;
+#X text 490 420 ThunderStorm;
+#X obj 1740 930 Cymbal;
+#X obj 1920 930 glassCrush;
+#X obj 1850 930 WaterDrip;
+#X obj 1790 930 thunder;
+#X obj 1100 350 key;
+#X floatatom 1100 390 5 0 0 0 - - keynote, f 5;
+#X obj 320 100 tgl 38 0 reset empty empty 17 7 0 10 #80ffff #ffffff
+#000000 0 1;
+#X obj 1070 190 hsl 128 15 0 10 0 0 bass1index reset empty -2 -8 0
+10 #2b95ff #ffffff #000000 0 1;
+#X text 970 190 bass1index;
+#X obj 1820 890 Netsend;
+#X text 1100 320 Part 4;
+#X connect 33 0 34 0;

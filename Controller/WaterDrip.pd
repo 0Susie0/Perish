@@ -1,0 +1,24 @@
+#N canvas 606 160 945 441 10;
+#X obj 120 40 loadbang;
+#X obj 120 130 soundfiler;
+#X obj 450 150 bng 15 250 50 0 empty water_on empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 450 240 *~, f 4;
+#X obj 450 300 dac~;
+#X obj 590 220 vline~;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array waterDrip 29150 float 4 black black;
+#X coords 0 1 29149 -1 200 140 1;
+#X restore 120 180 graph;
+#X msg 120 90 read -resize ./water-drip-single-2.wav waterDrip;
+#X obj 450 190 tabplay~ waterDrip;
+#X msg 590 180 0.5 200 \, 0.3 800 1000 \, 0 1000 1300;
+#X connect 0 0 7 0;
+#X connect 2 0 9 0;
+#X connect 2 0 8 0;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;
+#X connect 5 0 3 1;
+#X connect 7 0 1 0;
+#X connect 8 0 3 0;
+#X connect 9 0 5 0;
