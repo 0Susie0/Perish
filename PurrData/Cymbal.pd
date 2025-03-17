@@ -1,0 +1,24 @@
+#N canvas 506 168 806 428 10;
+#X obj 80 30 loadbang;
+#X obj 80 120 soundfiler;
+#X obj 410 140 bng 15 250 50 0 empty cymbal_on empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 410 230 *~, f 4;
+#X obj 410 310 dac~;
+#X obj 550 210 vline~;
+#X obj 410 180 tabplay~ cymbal;
+#X msg 80 80 read -resize ./reversed-crash-cymbal.wav cymbal;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array cymbal 122483 float 4 black black;
+#X coords 0 1 122482 -1 200 140 1;
+#X restore 80 170 graph;
+#X msg 550 170 5.5 200 \, 5 800 1000 \, 0 1000 1300;
+#X connect 0 0 7 0;
+#X connect 2 0 9 0;
+#X connect 2 0 6 0;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;
+#X connect 5 0 3 1;
+#X connect 6 0 3 0;
+#X connect 7 0 1 0;
+#X connect 9 0 5 0;

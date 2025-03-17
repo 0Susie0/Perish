@@ -1,0 +1,19 @@
+#N canvas 632 290 925 390 10;
+#X obj 120 30 loadbang;
+#X obj 120 120 soundfiler;
+#X obj 450 140 bng 15 250 50 0 empty glass_on empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 450 310 dac~;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array glass 99779 float 4 black black;
+#X coords 0 1 99778 -1 200 140 1;
+#X restore 120 170 graph;
+#X obj 450 180 tabplay~ glass;
+#X msg 120 80 read -resize ./crashing-glass.wav glass;
+#X obj 450 230 *~ 1.2;
+#X connect 0 0 6 0;
+#X connect 2 0 5 0;
+#X connect 5 0 7 0;
+#X connect 6 0 1 0;
+#X connect 7 0 3 0;
+#X connect 7 0 3 1;

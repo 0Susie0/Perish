@@ -1,0 +1,19 @@
+#N canvas 567 196 839 510 10;
+#X obj 40 -50 loadbang;
+#X obj 40 40 soundfiler;
+#X obj 370 60 bng 15 250 50 0 empty thunder_on empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 370 230 dac~;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array thunder 229320 float 4 black black;
+#X coords 0 1 229319 -1 200 140 1;
+#X restore 40 90 graph;
+#X obj 370 100 tabplay~ thunder;
+#X msg 40 0 read -resize ./rain-and-thunder.wav thunder;
+#X obj 370 150 *~ 1.1;
+#X connect 0 0 6 0;
+#X connect 2 0 5 0;
+#X connect 5 0 7 0;
+#X connect 6 0 1 0;
+#X connect 7 0 3 0;
+#X connect 7 0 3 1;
