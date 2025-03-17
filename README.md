@@ -1,8 +1,8 @@
 
 # Perish
 
-- **Title**: Perish
-- **Composer**: Xinyue Hu
+- **Title**: Perish (Sound and Computing Project)
+- **Composer**: Susie Hu
 - **YouTube Link**: https://youtu.be/aFjIjid-r0I?feature=shared
 
 
