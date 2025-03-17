@@ -1,16 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Perish
-Sound and Music Computing Project
-=======
----
-website: https://comp.anu.edu.au/courses/laptop-ensemble/assessments/lens-performance/
-name: Xinyue Hu
-uid: U7151386
----
 
 - **Title**: Perish
 - **Composer**: Xinyue Hu
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aFjIjid-r0I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
