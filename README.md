@@ -1,7 +1,7 @@
 
 # Perish
 
-- **Title**: Perish (Sound and Computing Project)
+- **Title**: Perish (Sound and Music Computing Project)
 - **Composer**: Susie Hu
 - **YouTube Link**: https://youtu.be/aFjIjid-r0I?feature=shared
 
