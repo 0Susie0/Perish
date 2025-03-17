@@ -4,12 +4,21 @@
 - **Title**: Perish
 - **Composer**: Xinyue Hu
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aFjIjid-r0I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aFjIjid-r0I?si=MTTE_pGWXrVRxi9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 # Description
 In this chapter, the protagonist discovers that his so-called war is just an excuse for the rulers of their own country to invade other countries and plunder resources. He is not a hero but a murderous devil. His worldview crumbled. In the end, he went to destruction in the chaos.
+
+**This chapter is composed of four parts**
+
+**Part 1**: The protagonist is awakened by a sharp, cloying smell of blood. Upon seeing mountains of corpses piled around him, he gradually realizes that he is a devil who has committed countless murders, and this revelation fills him with terror and loneliness.
+
+**Part 2**: The protagonist learns the truth about war—everything is a lie, and war itself is absurd.
+
+**Part 3**: The protagonist’s core beliefs collapse. Both his mind and body bear the scars of war’s devastation, and when he reflects on his past, he is overwhelmed by endless regret.
+
+**Part 4**: Deeply disappointed in both himself and the world, the protagonist, engulfed in sorrow and despair, chooses the path of self-destruction.
 
 # Files and Resources
 There are 3 folders which includes GibberCode, PurrData and Visual and contians all the materials of the performance.
