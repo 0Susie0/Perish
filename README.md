@@ -12,6 +12,8 @@ uid: U7151386
 - **Title**: Perish
 - **Composer**: Xinyue Hu
 
+
+
 # Description
 In this chapter, the protagonist discovers that his so-called war is just an excuse for the rulers of their own country to invade other countries and plunder resources. He is not a hero but a murderous devil. His worldview crumbled. In the end, he went to destruction in the chaos.
 
