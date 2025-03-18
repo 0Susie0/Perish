@@ -58,7 +58,7 @@ Then open the netsend.pd and click the bang named "NetConnect". After that, you 
 
 <center>
 
-![NetConnection](./Netconnection.png)
+![NetConnection](./Imgs/Netconnection.png)
 
 </center>
 
@@ -119,13 +119,13 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Part1 Operations](./Part1_Operations.png)
+  ![Part1 Operations](./Imgs/Part1_Operations.png)
 
   </center>
 
   <center>
 
-  ![S1](./s1.png)
+  ![S1](./Imgs/s1.png)
 
   </center>
 
@@ -134,13 +134,13 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
   Just as the operation in part 1 you can control the pad cutoff by using Hislider to make this lead change over time.
   <center>
 
-  ![Part2 Operations](./Part2_Operations.png)
+  ![Part2 Operations](./Imgs/Part2_Operations.png)
 
   </center>
 
   <center>
 
-  ![Pad](./Pad.png)
+  ![Pad](./Imgs/Pad.png)
 
   </center>
 
@@ -152,13 +152,13 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Part3 Operations](./Part3_Operations.png)
+  ![Part3 Operations](./Imgs/Part3_Operations.png)
 
   </center>
 
   <center>
 
-  ![Snare and Hat](./Snare_and_Hat.png)
+  ![Snare and Hat](./Imgs/Snare_and_Hat.png)
 
   </center>
 
@@ -170,13 +170,13 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Part4 Operations](./Part4_Operations.png)
+  ![Part4 Operations](./Imgs/Part4_Operations.png)
 
   </center>
 
   <center>
 
-  ![PluckEcho](./PluckEcho.png)
+  ![PluckEcho](./Imgs/PluckEcho.png)
 
   </center>
 
@@ -190,7 +190,7 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Scene 1](./Scene1.png)
+  ![Scene 1](./Imgs/Scene1.png)
 
   </center>
 
@@ -200,7 +200,7 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Scene 2](./Scene2.png)
+  ![Scene 2](./Imgs/Scene2.png)
 
   </center>
 
@@ -210,7 +210,7 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Scene 3](./Scene3.png)
+  ![Scene 3](./Imgs/Scene3.png)
 
   </center>
 
@@ -220,7 +220,7 @@ open the *User_Interface.pd*. Then copy and paste all gibber code on Gibber. Nex
 
   <center>
 
-  ![Scene 4](./Scene4.png)
+  ![Scene 4](./Imgs/Scene4.png)
 
   </center>
 
@@ -229,7 +229,7 @@ There are 4 parts of this chapter. In the following picture, each cell is 4 beat
 
 <center>
 
-  ![Part 1](./Part1.png)
+  ![Part 1](./Imgs/Part1.png)
 
 </center>
 
@@ -237,7 +237,7 @@ Part1 describes the protagonist's feelings of fear and loneliness since he gradu
 
 <center>
 
-  ![Part 2 and Part 3](./Part2.png)
+  ![Part 2 and Part 3](./Imgs/Part2.png)
 
 </center>
 
@@ -247,7 +247,7 @@ Part3 describes the protagonist's feelings of regret and tangled because his hum
 
 <center>
 
-  ![Part 4](./Part3.png)
+  ![Part 4](./Imgs/Part3.png)
 
 </center>
 
